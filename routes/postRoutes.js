@@ -1,16 +1,17 @@
 const express = require("express");
-const { getAllPosts, createPost } = require('../controllers/postController');
+const { getAllPosts, createPost, updatePost, getMyPosts, getPostById, deletePost } = require('../controllers/postController');
 const authMiddleware = require('../middleware/auth');
 
 const router = express.Router();
 
 // Public
 router.get("/", getAllPosts);
-// router.get("/:id", getPostById);
+router.get("/get/:id", getPostById);
 
 // Protected
+router.get("/my-posts", authMiddleware, getMyPosts);
 router.post("/create", authMiddleware, createPost);
-// router.put("/:id", authMiddleware, updatePost);
-// router.delete("/:id", authMiddleware, deletePost);
+router.put("/update/:id", authMiddleware, updatePost);
+router.delete("/delete/:id", authMiddleware, deletePost);
 
 module.exports = router;

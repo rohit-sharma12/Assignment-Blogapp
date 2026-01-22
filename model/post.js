@@ -13,10 +13,11 @@ const postSchema = new mongoose.Schema({
         type: String,
         required: [true, 'content required']
     },
-    // username: {
-    //     type: String,
-    //     required: [true, 'passwords required']
-    // }
+    userId: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User',
+        required: true
+    }
 }, { timestamps: true });
 
 const postModel = mongoose.model('Post', postSchema);
