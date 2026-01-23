@@ -1,7 +1,5 @@
 <<<<<<< HEAD
-PORT
-MONGO_URL
-JWT_SECRET
+.env
 =======
 # Logs
 logs
