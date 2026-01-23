@@ -4,7 +4,6 @@ const authMiddleware = require('../middleware/auth');
 
 const router = express.Router();
 
-// Public
 router.get("/", getAllPosts);
 router.get("/get/:id", getPostById);
 
