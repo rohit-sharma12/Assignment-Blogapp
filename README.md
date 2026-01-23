@@ -68,3 +68,12 @@ Use Postman
 Add JWT token in Authorization header
 
 Test CRUD operations
+
+<img width="1913" height="972" alt="Screenshot 2026-01-23 133436" src="https://github.com/user-attachments/assets/535f3bd6-ab62-4b0c-ba93-9d85b628ea94" />
+
+<img width="1919" height="950" alt="Screenshot 2026-01-23 135844" src="https://github.com/user-attachments/assets/800754f8-d555-48bd-b77a-385594b34d2d" />
+
+<img width="1918" height="959" alt="Screenshot 2026-01-23 140751" src="https://github.com/user-attachments/assets/a42126bc-6e2b-45b1-b999-552eac6061ec" />
+
+
+<img width="1919" height="906" alt="Screenshot 2026-01-23 140805" src="https://github.com/user-attachments/assets/10f77a21-c9c8-4fb0-8501-61799c6d5405" />
